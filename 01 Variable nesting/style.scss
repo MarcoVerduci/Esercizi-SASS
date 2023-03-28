@@ -1,0 +1,37 @@
+$color-primary: red;
+$color-secondary: blue;
+$color-tertiary: green;
+
+div {
+    border: 1px solid $color-primary;
+    width: 100%;
+    height: 200px;
+    
+    h1 {
+        color: $color-tertiary;
+        border-bottom: 1px solid $color-secondary;
+        margin: 0.5% 40% 0 40%;
+    }
+
+    section {
+        display: flex;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    article {
+        &:nth-child(odd) {
+            color: $color-secondary;
+        }
+        &:nth-child(even) {
+            color: $color-primary;
+        }
+        & p {
+            text-align: center;
+            border: 1px solid $color-tertiary;
+            padding: 40px;
+        }
+    }
+}
+
+// ho adottato le misure per il mio schermo che è 27" 1440p
