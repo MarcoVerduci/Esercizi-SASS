@@ -4,6 +4,8 @@
     font-size: $font-size;
 }
 
+$font-size: 1rem;
+
 div {
     border: 1px solid red;
     width: 100%;
@@ -27,11 +29,11 @@ article {
     margin-top: 18px;
     &:nth-child(odd) {
         border: 1px solid;
-            @include article-style(blue, green, 16px)
+            @include article-style(blue, green, $font-size)
     }
     &:nth-child(even) {
         border: 1px solid;
-            @include article-style(red, green, 16px);
+            @include article-style(red, green, $font-size);
     }
     & p {
         text-align: center;

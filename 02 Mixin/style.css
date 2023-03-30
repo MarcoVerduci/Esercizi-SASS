@@ -26,13 +26,13 @@ article:nth-child(odd) {
   border: 1px solid;
   color: blue;
   border-color: green;
-  font-size: 16px;
+  font-size: 1rem;
 }
 article:nth-child(even) {
   border: 1px solid;
   color: red;
   border-color: green;
-  font-size: 16px;
+  font-size: 1rem;
 }
 article p {
   text-align: center;
