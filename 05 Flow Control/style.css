@@ -1,0 +1,167 @@
+div {
+  border: 1px solid red;
+  width: 100%;
+  height: 520px;
+}
+
+h1, h2 {
+  color: green;
+  border-bottom: 1px solid blue;
+  margin: 0.7% 42.3% 0 42.3%;
+}
+
+h2 {
+  border: 1px solid red;
+  padding: 1rem;
+  text-align: center;
+  margin: 0.7% 44.5% 0 44.5%;
+}
+
+section {
+  display: flex;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+section div {
+  margin: 20px 43px 0 43px;
+}
+
+article {
+  margin-top: 18px;
+}
+article:nth-child(odd) {
+  border: 1px solid;
+  color: blue;
+  border-color: green;
+  font-size: calc(1rem);
+}
+article:nth-child(even) {
+  border: 1px solid;
+  color: red;
+  border-color: green;
+  font-size: calc(1rem);
+}
+article p {
+  text-align: center;
+  padding: 30px;
+}
+
+.fs-1rem, .fs-2rem, .fs-3rem {
+  width: calc(2.8125rem);
+  height: calc(2.8125rem);
+}
+
+div:nth-child(2) {
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+  font-size: 30px;
+}
+
+div:nth-child(3) {
+  background-color: #e6e6e6;
+  color: #1a1a1a;
+  font-size: 40px;
+}
+
+div:nth-child(4) {
+  background-color: #d9d9d9;
+  color: #262626;
+}
+
+div:nth-child(5) {
+  background-color: #cccccc;
+  color: #333333;
+  font-size: 30px;
+}
+
+div:nth-child(6) {
+  background-color: #bfbfbf;
+  color: #404040;
+  font-size: 40px;
+}
+
+div:nth-child(7) {
+  background-color: #b3b3b3;
+  color: #4d4d4d;
+  font-size: 30px;
+}
+
+div:nth-child(8) {
+  background-color: #a6a6a6;
+  color: #595959;
+}
+
+div:nth-child(9) {
+  background-color: #999999;
+  color: #666666;
+  font-size: 40px;
+}
+
+div:nth-child(10) {
+  background-color: blue;
+  color: red;
+  font-size: 30px;
+}
+
+div:nth-child(11) {
+  background-color: #8c8c8c;
+  color: #a6a6a6;
+}
+
+div:nth-child(12) {
+  background-color: gray;
+  color: #b3b3b3;
+  font-size: 40px;
+}
+
+div:nth-child(13) {
+  background-color: #737373;
+  color: #bfbfbf;
+  font-size: 30px;
+}
+
+div:nth-child(14) {
+  background-color: #666666;
+  color: #cccccc;
+}
+
+div:nth-child(15) {
+  background-color: #595959;
+  color: #d9d9d9;
+  font-size: 40px;
+}
+
+div:nth-child(16) {
+  background-color: #4d4d4d;
+  color: #e6e6e6;
+  font-size: 30px;
+}
+
+div:nth-child(17) {
+  background-color: #404040;
+  color: #f2f2f2;
+}
+
+div:nth-child(18) {
+  background-color: #333333;
+  color: #f9f9f9;
+  font-size: 40px;
+}
+
+div:nth-child(19) {
+  background-color: #262626;
+  color: white;
+  font-size: 30px;
+}
+
+section:last-of-type > article {
+  flex-grow: 1;
+  color: none;
+  border-color: blue;
+  font-size: none;
+}
+section:last-of-type > article p {
+  color: green;
+  border-color: none;
+  font-size: calc(1.5rem);
+}/*# sourceMappingURL=style.css.map */
